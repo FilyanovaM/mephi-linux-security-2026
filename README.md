@@ -135,4 +135,4 @@ cp /etc/sudoers /home/marinafilyanova/sudoers
 | `passwd` | 1 | Фрагмент `/etc/passwd` с записью о `user1`. |
 | `shadow` | 1 | Фрагмент `/etc/shadow` с записью о `user1` (пароль хэширован). |
 | `group` | 1 | Фрагмент `/etc/group` с записью о группе `students`. |
-| `sudoers` | 5 | Содержимое файла `visudo`. |
+| `sudoers` | 5 | Содержимое файла `/etc/sudoers`. |

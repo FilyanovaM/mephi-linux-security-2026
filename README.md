@@ -72,6 +72,9 @@ cat /etc/shadow
 # Сохранение артефактов
 stat /home/user1/lab/cat-setuid > /home/marinafilyanova/stat.out
 ```
+#### Подтверждение выполнения
+
+![](screenhot_3.png)
 
 ### Раздел 4. Изучение механизма привилегий (Capabilities)
 ```bash
@@ -106,7 +109,7 @@ ls -l /home/user1/lab/rootfile
 stat /home/user1/lab/chown-cap > /home/marinafilyanova/stat4.out
 getcap /home/user1/lab/chown-cap > /home/marinafilyanova/getcap.out
 ```
-
+![](screenhot_4.png)
 ### Раздел 5. Изучение механизма sudo
 ```bash
 # Открытие файла /etc/sudoers
@@ -121,7 +124,7 @@ sudo date -s "2026-10-10 18:00:00"
 # Сохранение артефактов
 cp /etc/sudoers /home/marinafilyanova/sudoers
 ```
-
+![](screenhot_5.png)
 ## Описание артефактов (файлов в репозитории)
 
 | Файл | Раздел | Что проверяется / Содержимое |

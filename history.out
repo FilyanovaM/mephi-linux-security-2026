@@ -1,0 +1,78 @@
+    1  history
+    2  ex
+    3  end
+    4  exit
+    5  ps -eo ruid=,euid=,pid=,comm= | awk '$1 != 0 && $2 ==0'
+    6  ps -eo ruid=,euid=,pid=,comm= | awk '$1 != 0 && $2 ==0' > /home/marinafilyanova/procuid
+    7  history --help
+    8  history -w
+    9  mkdir --help
+   10  mkdip /home/user1/lab
+   11  mkdir /home/user1/lab
+   12  cp /usr/bin/cat /home/user1/lab/cat-setuid
+   13  chown root:root /home/user1/lab/cat-setuid 
+   14  chmod 4755 /home/user1/lab/cat-setuid 
+   15  ls -l /home/user1/lab/cat-setuid 
+   16  stst /home/user1/lab/cat-setuid 
+   17  stat /home/user1/lab/cat-setuid 
+   18  su - user1
+   19  history -w
+   20  stat /home/user1/lab/cat-setuid > /home/marinafilyanova/stat.out
+   21  history -w
+   22  stat /home/user1 > /home/marinafilyanova/stat1.out
+   23  stat /home/user1/lab/cat-setuid > /home/marinafilyanova/stat3.out
+   24  history -w
+   25  cp /usr/bin/chown /home/user1/lab/chown-cap
+   26  setcap cap_chown+ep /home/user1/lab/chown-cap 
+   27  getcap /home/user1/lab/chown-cap 
+   28  touch /home/user1/lab/rootfile
+   29  chown root:root /home/user1/lab/rootfile
+   30  ls -l /home/user1/lab/rootfile
+   31  su - user1
+   32  history -w
+   33  stat /home/user1/lab/chown-cap > /home/marinafilyanova/stat4.out
+   34  getcap /home/user1/lab/chown-cap > /home/marinafilyanova/getcap.out
+   35  history -w
+   36  ps -eo ruid=,euid=,pid=,comm= | awk '$1 != 0 && $2 ==0'
+   37  ps -eo ruid=,euid=,pid=,comm= | awk '$1 != 0 && $2 ==0' > /home/marinafilyanova/procuid
+   38  history --help
+   39  history -w
+   40  mkdir --help
+   41  mkdip /home/user1/lab
+   42  mkdir /home/user1/lab
+   43  cp /usr/bin/cat /home/user1/lab/cat-setuid
+   44  chown root:root /home/user1/lab/cat-setuid 
+   45  chmod 4755 /home/user1/lab/cat-setuid 
+   46  ls -l /home/user1/lab/cat-setuid 
+   47  stst /home/user1/lab/cat-setuid 
+   48  stat /home/user1/lab/cat-setuid 
+   49  su - user1
+   50  history -w
+   51  stat /home/user1/lab/cat-setuid > /home/marinafilyanova/stat.out
+   52  history -w
+   53  stat /home/user1 > /home/marinafilyanova/stat1.out
+   54  stat /home/user1/lab/cat-setuid > /home/marinafilyanova/stat3.out
+   55  history -w
+   56  cp /usr/bin/chown /home/user1/lab/chown-cap
+   57  setcap cap_chown+ep /home/user1/lab/chown-cap 
+   58  getcap /home/user1/lab/chown-cap 
+   59  touch /home/user1/lab/rootfile
+   60  chown root:root /home/user1/lab/rootfile
+   61  ls -l /home/user1/lab/rootfile
+   62  su - user1
+   63  history -w
+   64  stat /home/user1/lab/chown-cap > /home/marinafilyanova/stat4.out
+   65  getcap /home/user1/lab/chown-cap > /home/marinafilyanova/getcap.out
+   66  history -w
+   67  visudo 
+   68  su - user1
+   69  /etc/sudoers > /home/marinafilyanova/sudoers
+   70  cp /etc/sudoers /home/marinafilyanova/sudoers
+   71  clear
+   72  exit
+   73  history > /home/marinafilyanova/history.out
+   74  cp /etc/group /home/marinafilyanova/group
+   75  cp /etc/passwd /home/marinafilyanova/passwd
+   76  cp /etc/shadow /home/marinafilyanova/shadow
+   
+
